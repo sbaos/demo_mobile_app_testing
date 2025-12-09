@@ -70,7 +70,7 @@ describe('OnboardingScreen', () => {
       const backButton = screen.getByTestId('back-button');
       fireEvent.press(backButton);
 
-      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to Demo App');
+      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to ExamMate App');
     });
 
     it('should show "Get Started" button on last slide', () => {
@@ -155,7 +155,7 @@ describe('OnboardingScreen', () => {
       fireEvent.press(backButton);
       fireEvent.press(backButton);
 
-      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to Demo App');
+      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to ExamMate App');
     });
   });
 });

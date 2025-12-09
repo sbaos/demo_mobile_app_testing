@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should show onboarding screen by default', () => {
     render(<App />);
-    expect(screen.getByText('Welcome to Demo App')).toBeTruthy();
+    expect(screen.getByText('Welcome to ExamMate App')).toBeTruthy();
   });
 });
