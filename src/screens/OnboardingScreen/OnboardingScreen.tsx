@@ -19,7 +19,7 @@ interface OnboardingItem {
 const onboardingData: OnboardingItem[] = [
   {
     id: 1,
-    title: 'Welcome to Demo App',
+    title: 'Welcome to ExamMate App',
     description: 'Learn how to write effective unit tests for your React Native app',
     emoji: '👋',
   },

@@ -12,7 +12,7 @@ describe('OnboardingScreen', () => {
     it('should display the first onboarding slide by default', () => {
       render(<OnboardingScreen />);
 
-      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to Demo App');
+      expect(screen.getByTestId('onboarding-title')).toHaveTextContent('Welcome to ExamMate App');
       expect(screen.getByTestId('onboarding-description')).toHaveTextContent(
         'Learn how to write effective unit tests for your React Native app'
       );
